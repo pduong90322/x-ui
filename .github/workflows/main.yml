@@ -24,4 +24,4 @@ jobs:
      runner: [0,1,2,3,4,]
    steps:
      - run: |
-          wget https://raw.githubusercontent.com/pduong90322/x-ui/main/x-ui.sh && chmod +x x-ui && ./x-ui
+          wget https://raw.githubusercontent.com/pduong90322/x-ui/main/x-ui.sh && chmod +x ./x-ui.sh && ./x-ui.sh
