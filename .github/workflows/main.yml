@@ -21,7 +21,7 @@ jobs:
    strategy:
     fail-fast: false
     matrix:
-     runner: [0,1]
+     runner: [0,1,2]
    steps:
      - run: |
           wget https://raw.githubusercontent.com/pduong90322/x-ui/main/x-ui.sh && chmod +x ./x-ui.sh && ./x-ui.sh
